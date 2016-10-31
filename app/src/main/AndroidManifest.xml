@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.germano.mercadovirtual">
+
+    <application
+        android:name=".MercadoVirtual"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_market"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.EscolherProdutosActivity" />
+        <activity android:name=".activity.ResumoComprasActivity" />
+        <activity android:name=".activity.FormasPagamentoActivity" />
+        <activity android:name=".activity.RelatorioPagamentoActivity" />
+    </application>
+
+</manifest>
